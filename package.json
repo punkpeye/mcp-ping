@@ -2,6 +2,9 @@
   "name": "mcp-ping",
   "version": "1.0.0",
   "main": "dist/server.js",
+  "bin": {
+    "mcp-ping": "dist/server.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "tsx src/server.ts",
