@@ -22,7 +22,7 @@ mcp-ping
       "annotations": {
         "openWorldHint": false,
         "readOnlyHint": true,
-        "title": "Ping",
+        "title": "Ping"
       },
       "description": "Pings a host and returns the result",
       "inputSchema": {
@@ -31,17 +31,15 @@ mcp-ping
         "properties": {
           "host": {
             "description": "The hostname or URL to ping (e.g., 'google.com' or 'https://google.com')",
-            "type": "string",
-          },
+            "type": "string"
+          }
         },
-        "required": [
-          "host",
-        ],
-        "type": "object",
+        "required": ["host"],
+        "type": "object"
       },
-      "name": "ping",
-    },
-  ],
+      "name": "ping"
+    }
+  ]
 }
 ```
 
