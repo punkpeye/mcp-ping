@@ -1,0 +1,57 @@
+{
+  "name": "mcp-ping",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/server.ts",
+    "dev": "fastmcp dev src/server.ts",
+    "lint": "prettier --check . && eslint . && tsc --noEmit",
+    "test": "vitest run",
+    "format": "prettier --write . && eslint --fix ."
+  },
+  "keywords": [
+    "fastmcp",
+    "mcp",
+    "ping"
+  ],
+  "repository": {
+    "url": "https://github.com/punkpeye/mcp-ping"
+  },
+  "author": "Frank Fiegel <frank@glama.ai>",
+  "homepage": "https://glama.ai/mcp",
+  "type": "module",
+  "license": "MIT",
+  "description": "Pings a host and returns the result",
+  "dependencies": {
+    "fastmcp": "^3.0.0",
+    "zod": "^3.24.4"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@tsconfig/node22": "^22.0.1",
+    "@types/node": "^22.15.30",
+    "eslint-config-prettier": "^10.1.3",
+    "eslint-plugin-perfectionist": "^4.12.3",
+    "get-port": "^7.1.0",
+    "jiti": "^2.4.2",
+    "prettier": "^3.5.3",
+    "semantic-release": "^24.2.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.0",
+    "vitest": "^3.1.3"
+  }
+}
