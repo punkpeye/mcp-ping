@@ -35,7 +35,7 @@ it("should ping a host", async () => {
 
   const result = await client.callTool({
     arguments: {
-      host: "google.com",
+      host: "glama.ai",
     },
     name: "ping",
   });
@@ -48,5 +48,5 @@ it("should ping a host", async () => {
     throw new Error("Expected text content");
   }
 
-  expect(result.content[0].text).toContain("PING google.com");
+  expect(result.content[0].text).toContain("PING glama.ai");
 });
