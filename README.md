@@ -43,7 +43,9 @@ mcp-ping
 }
 ```
 
-## `ping` tool example response
+## Tools
+
+### `ping` tool example response
 
 ```bash
 Ping results for glama.ai:
