@@ -43,6 +43,22 @@ mcp-ping
 }
 ```
 
+## `ping` tool example response
+
+```bash
+Ping results for glama.ai:
+
+PING glama.ai (37.16.29.120): 56 data bytes
+64 bytes from 37.16.29.120: icmp_seq=0 ttl=55 time=11.273 ms
+64 bytes from 37.16.29.120: icmp_seq=1 ttl=55 time=11.353 ms
+64 bytes from 37.16.29.120: icmp_seq=2 ttl=55 time=11.455 ms
+64 bytes from 37.16.29.120: icmp_seq=3 ttl=55 time=12.634 ms
+
+--- glama.ai ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 11.273/11.679/12.634/0.555 ms
+```
+
 ## Testing
 
 ```bash
