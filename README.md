@@ -5,6 +5,10 @@ Pings a host and returns the result.
 > [!NOTE]
 > This MCP server was made predominantly to [demonstrate](https://github.com/punkpeye/mcp-ping/blob/main/src/createServer.ts) how to use [FastMCP](https://github.com/punkpeye/fastmcp).
 
+<a href="https://glama.ai/mcp/servers/@punkpeye/mcp-ping">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@punkpeye/mcp-ping/badge" alt="mcp-ping MCP server" />
+</a>
+
 ## Usage
 
 ```bash
