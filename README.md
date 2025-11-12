@@ -19,9 +19,9 @@ mcp-ping
 
 Server supports the following environment variables:
 
-|Name|Description|
-|---|---|
-|HTTP_PROXY|URL of HTTP proxy to use (optional)|
+| Name       | Description                         |
+| ---------- | ----------------------------------- |
+| HTTP_PROXY | URL of HTTP proxy to use (optional) |
 
 ## MCP Server Profile
 
