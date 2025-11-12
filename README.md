@@ -15,6 +15,14 @@ Pings a host and returns the result.
 mcp-ping
 ```
 
+## Configuration
+
+Server supports the following environment variables:
+
+|Name|Description|
+|---|---|
+|HTTP_PROXY|URL of HTTP proxy to use (optional)|
+
 ## MCP Server Profile
 
 ```json
