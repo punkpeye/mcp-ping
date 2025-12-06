@@ -27,8 +27,8 @@
   "license": "MIT",
   "description": "Pings a host and returns the result",
   "dependencies": {
-    "fastmcp": "^3.25.2",
-    "zod": "^3.25.76"
+    "fastmcp": "^3.25.3",
+    "zod": "^4.1.13"
   },
   "release": {
     "branches": [
@@ -51,7 +51,7 @@
     "get-port": "^7.1.0",
     "jiti": "^2.6.1",
     "prettier": "^3.7.4",
-    "semantic-release": "^24.2.9",
+    "semantic-release": "^25.0.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.48.1",
