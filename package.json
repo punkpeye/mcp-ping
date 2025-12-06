@@ -44,7 +44,7 @@
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@modelcontextprotocol/sdk": "^1.24.3",
-    "@tsconfig/node22": "^22.0.5",
+    "@tsconfig/node24": "^24.0.3",
     "@types/node": "^24.10.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-perfectionist": "^4.15.1",
